@@ -3,6 +3,7 @@ import "./App.css";
 import Butterfinger from "../src/components/ButtonComponents/NumberButtons/Numbers";
 import BabyRuth from "../src/components/ButtonComponents/OperatorButtons/Operators";
 import AlmondJoy from "../src/components/ButtonComponents/SpecialButtons/Specials";
+import Whatchamacallit from "../src/components/DisplayComponents/Display";
 
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
@@ -23,6 +24,7 @@ function App() {
       
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <Whatchamacallit />
         <AlmondJoy />
         <Butterfinger />
         <BabyRuth />
