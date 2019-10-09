@@ -11,16 +11,21 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
-    
 }
 
+.logo {
+    margin: 4%;
+}
+
+.cntrBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .App {
     width: 90%;
     display: flex;
-    align-content: center;
-    justify-content: center;
     flex-direction: column;
-
 }
 
 .display {
@@ -50,29 +55,34 @@
 }
 
 .leftBox {
-    width: 65%;
+    width: 75%;
     text-align: right;
     
     
 }
 
+.rightBox {
+    width: 25%;
+  
+    
+}
 button {
-    width: 31%;
+    width: 28%;
     background:;
     color: #fff;
-    margin: 0.2rem;
-    padding: 10px;
-    font-size: 20px;
-    /* text-transform: uppercase; */
+    margin: 8px;
+    padding: 35px;
+    font-size: 30px;
     border-radius: 60%;
-    /* transition: all 0.2s ease-in; */
+    box-shadow: 4px 4px 4px black;
 }
 
 .opsBtn {
     display: flex;
+    justify-content: center;
     width: 100%;
     background: #247292;
-    text-align: center;
+    /* text-align: center; */
 
 }
      
