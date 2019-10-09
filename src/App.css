@@ -1,3 +1,9 @@
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 auto;
+}
 .container {
     background-color: #c00025;
     width: 100%;
@@ -5,7 +11,18 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    
 }
+
+.App {
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -19,21 +36,58 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin-left: 5%;
+}
+ 
+.btns {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width:100%;
+    
+    /* padding: 15%; */
+}
+
+.leftBox {
+    width: 65%;
+    text-align: right;
+    
+    
+}
+
+button {
+    width: 31%;
+    background:;
+    color: #fff;
+    margin: 0.2rem;
+    padding: 10px;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    border-radius: 60%;
+    /* transition: all 0.2s ease-in; */
+}
+
+.opsBtn {
+    display: flex;
+    width: 100%;
+    background: #247292;
+    text-align: center;
+
+}
+     
+.specials {
+    background: #235d9d;
+}
+    
+.numbersBtns {
+    background: #194379;
+}
 
 
 
-    button {
-        width: 30%;
-        background: navy;
-        color: #fff;
-        margin: 0.2rem;
-        padding: 10px;
-        font-size: 20px;
-        /* text-transform: uppercase; */
-        border-radius: 60%;
-        /* transition: all 0.2s ease-in; */
-    }
+
+
 
 
   
